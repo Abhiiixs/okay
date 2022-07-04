@@ -1,0 +1,62 @@
+extends base.pug
+
+block scripts
+  script(src='/index.js')
+
+
+  block style  
+    style
+     include ../static/style.css
+    block content 
+
+
+  
+
+    section#introsection
+      div  Welcome to our GYM 
+      div  Join us now 
+
+
+    section#missionsection 
+     h2   Our mission
+
+     div.card
+        h3 NFT
+
+        div.card-box 
+         div.card-img
+        //- img(src="static/img/nft (4).png", alt="")
+        div.card-content
+        p This is your Daddy ethrium
+        
+
+        
+
+     div.card
+        h3 Okay man shut the fuckup 
+      
+        div.card-box 
+         div.card-img
+        //- img(src="static/img/nft (4).png", alt="")
+        div.card-content
+        p This is your Daddy ethrium
+         
+
+     div.card
+        h3 Okay man shut the fuckup 
+         `  
+        div.card-box 
+         div.card-img
+        //- img(src="static/img/nft (4).png", alt="")
+        div.card-content
+        p This is your Daddy ethrium
+
+    #sponsorsection 
+  
+      div#sponsors 
+       h2   Our sponsor
+    img(src="static/img/nft (4).png", alt="sp img", class="spimg")
+    img(src="static/img/nft (4).png", alt="sp img", class="spimg")
+    img(src="static/img/nft (4).png", alt="sp img", class="spimg")
+
+      
